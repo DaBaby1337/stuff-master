@@ -17,7 +17,7 @@ const Categories = ({ title, products = [], amount }) => {
               className={styles.image}
               style={{ backgroundImage: `url(${image})` }}
             />
-            <h1 className={styles.title}>{name}</h1>
+            <h3 className={styles.title}>{name}</h3>
           </Link>
         ))}
       </div>
